@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivaz Bike Shop | Mecânica e Manutenção de Bicicletas em Brasília - DF</title>
+  <meta name="description" content="Vivaz Bike Shop em Águas Claras - DF. Mecânica especializada, manutenção, revisão e preparação para MTB, Speed, TT e E-Bikes. O pedal começa aqui. Agende pelo WhatsApp." />
+  <meta name="keywords" content="bike shop Brasília, oficina de bicicleta Brasília, manutenção de bicicleta Brasília, revisão de bike Brasília, oficina MTB Brasília, manutenção Speed Brasília, manutenção E-Bike Brasília, Águas Claras bicicleta" />
+  <meta name="robots" content="index, follow" />
+  <!-- Favicons (inline base64 — funciona em file:// sem servidor) -->
+  <link rel="icon" type="image/png" href="data:image/png;base64,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" />
+  <link rel="apple-touch-icon"      href="data:image/png;base64,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" />
+  <meta property="og:title" content="Vivaz Bike Shop | Mecânica Especializada em Brasília" />
+  <meta property="og:description" content="Sua bike. Seu pedal. Sua história. Mecânica especializada, revisão e preparação para MTB, Speed, TT e E-Bikes em Águas Claras - DF." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo" aria-label="Vivaz Bike Shop - Página inicial">
+        <span class="nav__logo-text"><span class="white">VI</span><span class="blue">V</span><span class="white">AZ</span></span>
+        <span class="nav__logo-sub">BIKE SHOP</span>
+      </a>
+      <nav class="nav__links" aria-label="Menu principal">
+        <a href="#servicos" class="nav__link">Serviços</a>
+        <a href="#modalidades" class="nav__link">Modalidades</a>
+        <a href="#diferenciais" class="nav__link">Diferenciais</a>
+        <a href="#localizacao" class="nav__link">Localização</a>
+      </nav>
+      <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Conheci%20a%20Vivaz%20Bike%20Shop%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20para%20minha%20bike."
+         class="btn btn--primary btn--sm nav__cta"
+         id="nav-whatsapp-cta"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Falar com a Vivaz Bike Shop no WhatsApp">
+        <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+      <button class="nav__burger" id="nav-burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-mobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav__mobile" id="nav-mobile" aria-label="Menu mobile">
+      <a href="#servicos" class="nav__mobile-link">Serviços</a>
+      <a href="#modalidades" class="nav__mobile-link">Modalidades</a>
+      <a href="#diferenciais" class="nav__mobile-link">Diferenciais</a>
+      <a href="#localizacao" class="nav__mobile-link">Localização</a>
+      <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Conheci%20a%20Vivaz%20Bike%20Shop%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20para%20minha%20bike."
+         class="btn btn--primary btn--full"
+         id="nav-mobile-whatsapp-cta"
+         target="_blank" rel="noopener noreferrer">
+        <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Falar pelo WhatsApp
+      </a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="images/hero_bike.jpg" alt="Bicicleta MTB carbon premium em oficina especializada da Vivaz Bike Shop em Brasília" class="hero__img" loading="eager" fetchpriority="high" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__badge-bar">
+      <span class="hero__badge">MTB</span>
+      <span class="hero__badge-sep">/</span>
+      <span class="hero__badge">SPEED</span>
+      <span class="hero__badge-sep">/</span>
+      <span class="hero__badge">TT</span>
+      <span class="hero__badge-sep">/</span>
+      <span class="hero__badge">E-BIKES</span>
+    </div>
+    <div class="hero__content container">
+      <div class="hero__text" data-animate="fade-up">
+        <div class="hero__location-label">Águas Claras · Brasília — DF</div>
+        <div class="hero__brand-mark">
+          <span class="white">VI</span><span class="blue">V</span><span class="white">AZ</span>
+          <span class="hero__brand-sub">BIKE SHOP</span>
+        </div>
+        <h1 class="hero__headline">
+          Sua bike merece cuidado<br /> de quem entende de pedal.
+        </h1>
+        <p class="hero__subheadline">
+          Mecânica especializada, manutenção, revisão, preparação,
+          componentes e acessórios para MTB, Speed, TT e E-Bikes.
+        </p>
+        <div class="hero__ctas">
+          <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Quero%20agendar%20um%20atendimento%20para%20minha%20bike%20na%20Vivaz%20Bike%20Shop."
+             class="btn btn--primary btn--lg"
+             id="hero-schedule-cta"
+             target="_blank" rel="noopener noreferrer">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Agendar Atendimento
+          </a>
+          <a href="#servicos" class="btn btn--outline btn--lg" id="hero-services-cta">
+            Conhecer os Serviços
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- POSICIONAMENTO -->
+  <section class="positioning" id="posicionamento">
+    <div class="container">
+      <div class="positioning__grid">
+        <div class="positioning__text" data-animate="fade-right">
+          <span class="section-label">Nossa essência</span>
+          <h2 class="positioning__title">
+            Mais do que uma bike shop.<br />
+            <span class="text-blue">Um lugar para quem vive o pedal.</span>
+          </h2>
+          <p class="positioning__desc">
+            Na Vivaz, cada bicicleta recebe atenção aos detalhes, conhecimento técnico e o cuidado que todo ciclista procura. Entendemos que sua bike não é só um equipamento — é parte da sua rotina, da sua conquista, da sua história.
+          </p>
+          <p class="positioning__desc">
+            Do ajuste fino ao mecânico completo, do componente certo à preparação para o próximo desafio, estamos aqui para fazer sua bike render tudo que ela pode oferecer.
+          </p>
+          <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Conheci%20a%20Vivaz%20Bike%20Shop%20pelo%20site%20e%20gostaria%20de%20falar%20sobre%20minha%20bike."
+             class="btn btn--primary"
+             id="positioning-whatsapp-cta"
+             target="_blank" rel="noopener noreferrer">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Falar com a Vivaz
+          </a>
+        </div>
+        <div class="positioning__image" data-animate="fade-left">
+          <img src="images/img-caio-mecanico.jpg" alt="Caio, mecânico especializado da Vivaz Bike Shop, trabalhando em bicicleta de alta performance" loading="lazy" />
+          <div class="positioning__badge">
+            <em>Sua bike. Seu pedal. Sua história.</em>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="services" id="servicos">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-label">O que fazemos</span>
+        <h2 class="section-title">Serviços especializados<br /><span class="text-blue">para a sua bike</span></h2>
+        <p class="section-subtitle">Cada serviço realizado com precisão técnica e atenção aos detalhes que fazem a diferença no seu pedal.</p>
+      </div>
+      <div class="services__grid" data-animate="stagger">
+
+        <article class="service-card" id="service-mecanica">
+          <div class="service-card__icon-wrap">
+            <svg class="service-card__icon" viewBox="0 0 48 48" fill="none"><path d="M38.5 9.5L30 18l-4-4 8.5-8.5A11 11 0 0 0 14 18c0 1.3.22 2.54.63 3.7L5.5 30.83A4.5 4.5 0 0 0 11.67 37l9.13-9.13A11 11 0 0 0 38.5 9.5z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Mecânica Especializada</h3>
+          <p class="service-card__desc">Diagnóstico preciso e reparo completo do seu equipamento. Da transmissão ao freio, cuidamos de cada detalhe com conhecimento técnico real.</p>
+          <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Preciso%20de%20mec%C3%A2nica%20especializada%20para%20minha%20bike.%20Podem%20me%20ajudar%3F" class="service-card__cta" id="service-mecanica-cta" target="_blank" rel="noopener noreferrer">Solicitar atendimento →</a>
+        </article>
+
+        <article class="service-card" id="service-componentes">
+          <div class="service-card__icon-wrap">
+            <svg class="service-card__icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2.5"/><path d="M24 4v5M24 39v5M4 24h5M39 24h5M8.1 8.1l3.5 3.5M36.4 36.4l3.5 3.5M8.1 39.9l3.5-3.5M36.4 11.6l3.5-3.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Componentes &amp; Acessórios</h3>
+          <p class="service-card__desc">Peças e acessórios selecionados para performance e durabilidade. Orientação técnica para a escolha certa para o seu estilo de pedal.</p>
+          <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Preciso%20de%20componentes%20e%20acess%C3%B3rios%20para%20minha%20bike.%20Voc%C3%AAs%20podem%20me%20ajudar%3F" class="service-card__cta" id="service-componentes-cta" target="_blank" rel="noopener noreferrer">Solicitar atendimento →</a>
+        </article>
+
+        <article class="service-card" id="service-manutencao">
+          <div class="service-card__icon-wrap">
+            <svg class="service-card__icon" viewBox="0 0 48 48" fill="none"><circle cx="14" cy="34" r="8" stroke="currentColor" stroke-width="2.5"/><circle cx="34" cy="34" r="8" stroke="currentColor" stroke-width="2.5"/><path d="M14 34H6M42 34h-8M22 34h4M24 14l-10 20M24 14l10 20M18 24h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="12" r="3" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3 class="service-card__title">Manutenção</h3>
+          <p class="service-card__desc">Manutenção preventiva e corretiva para manter sua bike sempre em dia. Lubrificação, ajustes e cuidados para prolongar a vida útil de cada componente.</p>
+          <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Quero%20agendar%20uma%20manuten%C3%A7%C3%A3o%20para%20minha%20bike%20na%20Vivaz%20Bike%20Shop." class="service-card__cta" id="service-manutencao-cta" target="_blank" rel="noopener noreferrer">Agendar manutenção →</a>
+        </article>
+
+        <article class="service-card" id="service-revisao">
+          <div class="service-card__icon-wrap">
+            <svg class="service-card__icon" viewBox="0 0 48 48" fill="none"><path d="M24 6C14.06 6 6 14.06 6 24s8.06 18 18 18 18-8.06 18-18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M34 6l4 4-4 4M38 10H26" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 24l3 3 7-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Revisão Completa</h3>
+          <p class="service-card__desc">Revisão ponto a ponto da sua bicicleta antes das suas aventuras. Garantia de que tudo está ajustado, seguro e pronto para rodar com eficiência.</p>
+          <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Quero%20agendar%20uma%20revis%C3%A3o%20completa%20da%20minha%20bike%20na%20Vivaz%20Bike%20Shop." class="service-card__cta" id="service-revisao-cta" target="_blank" rel="noopener noreferrer">Agendar revisão →</a>
+        </article>
+
+        <article class="service-card" id="service-preparacao">
+          <div class="service-card__icon-wrap">
+            <svg class="service-card__icon" viewBox="0 0 48 48" fill="none"><path d="M24 4l5 10 11 1.6-8 7.8 1.9 11L24 29l-9.9 5.4 1.9-11-8-7.8L19 15z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M24 32v12M18 38l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Preparação</h3>
+          <p class="service-card__desc">Preparação técnica e personalizada para cada modalidade e ciclista. Setup correto de geometria e componentes para o seu objetivo de performance.</p>
+          <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Quero%20preparar%20minha%20bike%20para%20o%20pr%C3%B3ximo%20pedal.%20Podem%20me%20ajudar%3F" class="service-card__cta" id="service-preparacao-cta" target="_blank" rel="noopener noreferrer">Preparar minha bike →</a>
+        </article>
+
+        <article class="service-card service-card--cta" id="service-cta-card">
+          <div class="service-card__cta-inner">
+            <p class="service-card__cta-tag">Pronto para começar?</p>
+            <h3 class="service-card__cta-title">Fale com a Vivaz agora</h3>
+            <p class="service-card__cta-desc">Descreva o que sua bike precisa e a gente te orienta.</p>
+            <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Conheci%20a%20Vivaz%20Bike%20Shop%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20para%20minha%20bike." class="btn btn--primary btn--full" id="service-cta-card-btn" target="_blank" rel="noopener noreferrer">
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Chamar no WhatsApp
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MODALIDADES -->
+  <section class="modalities" id="modalidades">
+    <div class="modalities__bg">
+      <img src="images/mtb_trail.jpg" alt="Ciclista de mountain bike em trilha dramática ao entardecer" loading="lazy" />
+      <div class="modalities__overlay"></div>
+    </div>
+    <div class="container">
+      <div class="section-header section-header--light" data-animate="fade-up">
+        <span class="section-label section-label--blue">Para quem a Vivaz atende</span>
+        <h2 class="section-title section-title--light">Sua modalidade,<br /><span class="text-blue">nosso domínio.</span></h2>
+      </div>
+      <div class="modalities__grid" data-animate="stagger">
+        <div class="modality-card" id="modality-mtb">
+          <div class="modality-card__icon">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M8 44L20 24l8 8 10-16 10 16 8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="48" r="8" stroke="currentColor" stroke-width="2.5"/><circle cx="48" cy="48" r="8" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3 class="modality-card__name">MTB</h3>
+          <p class="modality-card__desc">Mountain bike, trilha, enduro e XC. Preparação técnica para qualquer terreno.</p>
+        </div>
+        <div class="modality-card" id="modality-speed">
+          <div class="modality-card__icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="16" cy="48" r="8" stroke="currentColor" stroke-width="2.5"/><circle cx="48" cy="48" r="8" stroke="currentColor" stroke-width="2.5"/><path d="M16 48L28 20h8l12 28M20 36h24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M28 20c0 0 4-8 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="modality-card__name">SPEED</h3>
+          <p class="modality-card__desc">Road bikes de alta performance. Ajuste fino para máxima velocidade e eficiência no asfalto.</p>
+        </div>
+        <div class="modality-card" id="modality-tt">
+          <div class="modality-card__icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="16" cy="48" r="8" stroke="currentColor" stroke-width="2.5"/><circle cx="48" cy="48" r="8" stroke="currentColor" stroke-width="2.5"/><path d="M16 48L26 16h12l10 32M30 16L34 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M24 30h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="modality-card__name">TT</h3>
+          <p class="modality-card__desc">Time trial e contrarrelógio. Setup aerodinâmico e preparação para provas cronometradas.</p>
+        </div>
+        <div class="modality-card" id="modality-ebike">
+          <div class="modality-card__icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="16" cy="48" r="8" stroke="currentColor" stroke-width="2.5"/><circle cx="48" cy="48" r="8" stroke="currentColor" stroke-width="2.5"/><path d="M28 20l-6 12h12l-6 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="34" y="16" width="12" height="7" rx="2" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3 class="modality-card__name">E-BIKES</h3>
+          <p class="modality-card__desc">Bicicletas elétricas e pedaladas assistidas. Manutenção especializada em sistemas elétricos e motores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA SPLIT -->
+  <section class="gallery-split">
+    <div class="gallery-split__panel" data-animate="fade-right">
+      <img src="images/speed_bike.jpg" alt="Bicicleta speed carbon de alta performance com iluminação azul dramática" loading="lazy" />
+      <div class="gallery-split__panel-overlay">
+        <span class="gallery-split__tag">Speed &amp; TT</span>
+        <p class="gallery-split__text">Máxima performance no asfalto</p>
+      </div>
+    </div>
+    <div class="gallery-split__panel" data-animate="fade-left">
+      <img src="images/ebike_premium.jpg" alt="E-Bike premium com tecnologia de propulsão elétrica e design futurista" loading="lazy" />
+      <div class="gallery-split__panel-overlay">
+        <span class="gallery-split__tag">E-Bikes</span>
+        <p class="gallery-split__text">Tecnologia e potência elétrica</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="differentials" id="diferenciais">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-label">Por que a Vivaz</span>
+        <h2 class="section-title">O cuidado que faz<br /><span class="text-blue">a diferença</span></h2>
+      </div>
+      <div class="differentials__grid" data-animate="stagger">
+        <div class="differential-item" id="diff-detalhes">
+          <div class="differential-item__num">01</div>
+          <div class="differential-item__content">
+            <h3 class="differential-item__title">Atenção aos detalhes</h3>
+            <p class="differential-item__desc">Cada parafuso, cada cabo, cada componente recebe atenção individualizada. Não existe serviço feito pela metade na Vivaz.</p>
+          </div>
+        </div>
+        <div class="differential-item" id="diff-tecnico">
+          <div class="differential-item__num">02</div>
+          <div class="differential-item__content">
+            <h3 class="differential-item__title">Conhecimento técnico</h3>
+            <p class="differential-item__desc">Domínio real sobre mecânica de bicicletas em todas as modalidades. Diagnóstico correto, solução assertiva.</p>
+          </div>
+        </div>
+        <div class="differential-item" id="diff-cuidado">
+          <div class="differential-item__num">03</div>
+          <div class="differential-item__content">
+            <h3 class="differential-item__title">Cuidado especializado</h3>
+            <p class="differential-item__desc">Tratamos cada bike com o cuidado que merece. Sua bicicleta não é mais um número — é o projeto do dia.</p>
+          </div>
+        </div>
+        <div class="differential-item" id="diff-modalidade">
+          <div class="differential-item__num">04</div>
+          <div class="differential-item__content">
+            <h3 class="differential-item__title">Preparação por modalidade</h3>
+            <p class="differential-item__desc">Cada modalidade tem suas exigências. MTB, Speed, TT e E-Bike têm tratamentos específicos para render o máximo.</p>
+          </div>
+        </div>
+        <div class="differential-item" id="diff-ciclista">
+          <div class="differential-item__num">05</div>
+          <div class="differential-item__content">
+            <h3 class="differential-item__title">Atendimento de ciclistas</h3>
+            <p class="differential-item__desc">Falamos a língua do pedal. Entendemos a rotina, as necessidades e as urgências de quem vive o ciclismo no dia a dia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA INTERMEDIÁRIO -->
+  <section class="mid-cta">
+    <div class="mid-cta__bg" aria-hidden="true"></div>
+    <div class="container">
+      <div class="mid-cta__content" data-animate="fade-up">
+        <h2 class="mid-cta__title">Sua próxima pedalada começa<br /><span class="text-blue">antes de você subir na bike.</span></h2>
+        <p class="mid-cta__desc">Deixe sua bicicleta pronta para rodar com segurança, eficiência e confiança. A Vivaz cuida de tudo para você só se preocupar com o pedal.</p>
+        <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Quero%20cuidar%20da%20minha%20bike.%20Podem%20me%20ajudar%3F"
+           class="btn btn--primary btn--xl"
+           id="mid-cta-btn"
+           target="_blank" rel="noopener noreferrer">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Quero Cuidar da Minha Bike
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCALIZAÇÃO -->
+  <section class="location" id="localizacao">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-label">Onde estamos</span>
+        <h2 class="section-title">Venha nos <span class="text-blue">visitar</span></h2>
+        <p class="section-subtitle">Estamos em Águas Claras, no coração do DF, prontos para receber você e sua bike.</p>
+      </div>
+      <div class="location__grid">
+        <div class="location__info" data-animate="fade-right">
+          <div class="location__info-card" id="location-address">
+            <div class="location__info-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <div>
+              <h3 class="location__info-title">Endereço</h3>
+              <p class="location__info-text">Col. Agrícola Vereda da Cruz<br />Conjunto 6, Nº 25, Loja 1<br />Arniqueira — Brasília, DF<br />CEP: 71996-435</p>
+              <a href="https://maps.google.com/?q=Col.+Agr%C3%ADcola+Vereda+da+Cruz+conjunto+6+nr+25+loja+1+Arniqueira+Bras%C3%ADlia+DF" class="location__info-link" target="_blank" rel="noopener noreferrer" id="location-maps-link">Abrir no Google Maps →</a>
+            </div>
+          </div>
+          <div class="location__info-card" id="location-hours">
+            <div class="location__info-icon">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              <h3 class="location__info-title">Horário de Funcionamento</h3>
+              <p class="location__info-text">Segunda a Sexta — 09h às 18h<br />Sábado — 09h às 13h</p>
+            </div>
+          </div>
+          <div class="location__info-card" id="location-whatsapp">
+            <div class="location__info-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div>
+              <h3 class="location__info-title">WhatsApp</h3>
+              <p class="location__info-text">(61) 98494-4102</p>
+              <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Conheci%20a%20Vivaz%20Bike%20Shop%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20para%20minha%20bike." class="location__info-link" target="_blank" rel="noopener noreferrer" id="location-wa-link">Enviar mensagem →</a>
+            </div>
+          </div>
+          <div class="location__info-card" id="location-instagram">
+            <div class="location__info-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </div>
+            <div>
+              <h3 class="location__info-title">Instagram</h3>
+              <p class="location__info-text">@vivazbikeshop</p>
+              <a href="https://www.instagram.com/vivazbikeshop/" class="location__info-link" target="_blank" rel="noopener noreferrer" id="location-instagram-link">Ver no Instagram →</a>
+            </div>
+          </div>
+        </div>
+        <div class="location__map" data-animate="fade-left">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.6!2d-48.0266079!3d-15.8486988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a33005f890ef9%3A0x2eb1b263542e7a8f!2sVivaz+bike+shop!5e0!3m2!1spt-BR!2sbr!4v1698000000000!5m2!1spt-BR!2sbr"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização da Vivaz Bike Shop em Brasília - DF">
+          </iframe>
+          <div class="location__map-overlay">
+            <a href="https://maps.app.goo.gl/1ozoygcnnnqbntTs8"
+               class="btn btn--primary"
+               id="location-map-cta"
+               target="_blank" rel="noopener noreferrer">
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              Ver no Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final-cta" id="contato">
+    <div class="final-cta__bg" aria-hidden="true">
+      <div class="final-cta__bg-shape final-cta__bg-shape--1"></div>
+      <div class="final-cta__bg-shape final-cta__bg-shape--2"></div>
+    </div>
+    <div class="container">
+      <div class="final-cta__content" data-animate="fade-up">
+        <div class="final-cta__tagline">
+          <span>Sua bike.</span>
+          <span class="text-blue">Seu pedal.</span>
+          <span>Sua história.</span>
+        </div>
+        <h2 class="final-cta__title">Fale com a Vivaz e deixe sua bike<br />pronta para o próximo pedal.</h2>
+        <p class="final-cta__desc">Mecânica especializada, revisão completa, preparação e componentes. Tudo em um só lugar, com quem entende de ciclismo.</p>
+        <div class="final-cta__btns">
+          <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Conheci%20a%20Vivaz%20Bike%20Shop%20pelo%20site%20e%20gostaria%20de%20falar%20sobre%20minha%20bike."
+             class="btn btn--primary btn--xl btn--pulse"
+             id="final-cta-main"
+             target="_blank" rel="noopener noreferrer">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            FALAR PELO WHATSAPP
+          </a>
+        </div>
+        <p class="final-cta__number">(61) 98494-4102</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="white">VI</span><span class="blue">V</span><span class="white">AZ</span>
+            <span class="footer__logo-sub">BIKE SHOP</span>
+          </div>
+          <p class="footer__tagline">O pedal começa aqui.</p>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__col-title">Serviços</h4>
+          <ul>
+            <li><a href="#servicos">Mecânica Especializada</a></li>
+            <li><a href="#servicos">Componentes &amp; Acessórios</a></li>
+            <li><a href="#servicos">Manutenção</a></li>
+            <li><a href="#servicos">Revisão Completa</a></li>
+            <li><a href="#servicos">Preparação</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__col-title">Modalidades</h4>
+          <ul>
+            <li><a href="#modalidades">MTB</a></li>
+            <li><a href="#modalidades">Speed</a></li>
+            <li><a href="#modalidades">TT</a></li>
+            <li><a href="#modalidades">E-Bikes</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4 class="footer__col-title">Contato</h4>
+          <p>Águas Claras · Brasília, DF</p>
+          <a href="https://www.instagram.com/vivazbikeshop/" class="footer__insta-link" id="footer-instagram-link" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            @vivazbikeshop
+          </a>
+          <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Conheci%20a%20Vivaz%20Bike%20Shop%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20para%20minha%20bike."
+             class="footer__wa-link" id="footer-whatsapp-link" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            (61) 98494-4102
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 Vivaz Bike Shop · Todos os direitos reservados · Brasília — DF</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WA BUTTON -->
+  <a href="https://wa.me/5561984944102?text=Ol%C3%A1!%20Conheci%20a%20Vivaz%20Bike%20Shop%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20para%20minha%20bike."
+     class="floating-wa"
+     id="floating-whatsapp-btn"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Falar com a Vivaz Bike Shop pelo WhatsApp">
+    <svg class="floating-wa__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="floating-wa__label">Falar pelo WhatsApp</span>
+    <span class="floating-wa__pulse" aria-hidden="true"></span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
